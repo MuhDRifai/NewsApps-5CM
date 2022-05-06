@@ -14,7 +14,7 @@
 
 1. Clone the repo
    ```sh
-   git clone 
+   git clone : https://github.com/MuhDRifai/NewsApps-5CM.git
    ```
 2. Install NPM packages
    ```sh

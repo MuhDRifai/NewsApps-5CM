@@ -27,7 +27,7 @@
 
 ## Demonstration
 
-Demo : 
+Demo : https://news-apps-5-cm.vercel.app/
 
 ## Snippets
 
@@ -40,7 +40,7 @@ Here are some snippets about this app:
 
 - Login
 
-![home](./SS/loginn.png)
+![home](./SS/login.png)
 
 
 - Article

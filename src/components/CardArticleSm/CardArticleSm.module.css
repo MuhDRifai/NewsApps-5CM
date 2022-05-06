@@ -1,0 +1,51 @@
+/* -------------------- article card sm start here -------------- */
+.articleCardSm {
+  height: 200px;
+  width: 300px;
+  padding: 0.57em 0;
+  margin: 0.43em 0;
+}
+.articleTextSmWrapper {
+  width: 289px;
+  cursor: pointer;
+}
+.articleTitle,
+.articleDesc {
+  margin: 0;
+}
+.articleTitle {
+  text-transform: capitalize;
+  font-size: 1.345em;
+}
+.articleDesc {
+  font-size: 1.057em;
+  font-size: 1.03em;
+}
+.articleAuthor {
+  display: flex;
+  align-items: center;
+  font-size: 0.78em;
+  cursor: pointer;
+}
+.articleAuthor p {
+  margin: 0.9em 0.5em;
+  font-weight: bold;
+}
+.authorPicture {
+  border-radius: 50%;
+}
+.articleAction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0.9em;
+}
+.articleDate {
+  margin: 0.47em 0.67em 0 0;
+  font-size: 0.85em;
+}
+.bookmarkIcon {
+  font-size: 1.1em;
+  cursor: pointer;
+}
+/* -------------------- article card sm end here -------------- */

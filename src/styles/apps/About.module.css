@@ -1,0 +1,22 @@
+.description {
+  border-right: 1px solid #0d253c;
+}
+.whyIsTheMangles {
+  flex: 0.5;
+  border-bottom: 1px solid #ffffff;
+}
+.reasons {
+  flex: 3.5;
+}
+.left {
+  border-right: 1px solid #ffffff;
+}
+.rightTop {
+  border-bottom: 1px solid #ffffff;
+}
+.borderBottomDark {
+  border-bottom: 1px solid #0d253c;
+}
+.borderRightDark {
+  border-right: 1px solid #0d253c;
+}

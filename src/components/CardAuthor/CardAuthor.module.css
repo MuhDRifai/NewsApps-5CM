@@ -1,0 +1,28 @@
+/* ----------------------- author card start here ---------------------- */
+.authorDetails {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.authorImg {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.authorInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.75em;
+
+  width: 225px;
+  height: 78px;
+}
+.authorName {
+  font-weight: bold;
+  font-size: 1.075em;
+  margin: 0.35em 0;
+}
+.authorAbout {
+  font-size: 0.875em;
+  margin: 0;
+}
+/* ----------------------- author card end here ---------------------- */

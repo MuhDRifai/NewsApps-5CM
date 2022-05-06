@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 5CM
 
-## Getting Started
+**5CM** is a platform for sharing news about nature, so when you have the desire to share information (which is generally in the form of writing) you can use 5CM
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Built With
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [React.js]
+- [Next.js]
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Installation
 
-## Learn More
+1. Clone the repo
+   ```sh
+   git clone 
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start the Application
+   ```sh
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+## Demonstration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Demo : 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Snippets
 
-## Deploy on Vercel
+Here are some snippets about this app:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Home
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![home](./SS/1.png)
+
+
+- Login
+
+![home](./SS/loginn.png)
+
+
+- Article
+
+![article](./SS/2.png)
+
+
+- home Category
+
+![category](./SS/7.png)
+
+
+
+

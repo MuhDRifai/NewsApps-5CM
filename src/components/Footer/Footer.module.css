@@ -1,0 +1,39 @@
+.footer {
+  height: 50vh;
+  width: 100%;
+  padding: 2rem 0;
+  border-top: 1px solid #0d253c;
+}
+
+.footerContent {
+  margin: 2.5em 4em;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  border-bottom: 1px solid #FFFF;
+}
+
+.rightSection {
+  text-align: right;
+  padding-top: 0;
+}
+.leftSection {
+  text-align: left;
+  padding-top: 0;
+}
+.leftSection ul {
+  padding-left: 0;
+}
+.leftSection li {
+  list-style: none;
+  margin-bottom: 1.2em;
+  font-size: 1.2em;
+}
+.leftSection li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.leftSection span {
+  font-weight: 700;
+}

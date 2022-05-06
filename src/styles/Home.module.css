@@ -1,0 +1,133 @@
+/* ======================== CATEGORY SECTION ========================= */
+.categorySection {
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 4em;
+}
+.categoryWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.textWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  font-size: 0.9em;
+}
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ======================== RECOMMENDATION SECTION ========================= */
+.recommendSection {
+  height: 77vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #0d253c;
+}
+.recommend {
+  flex: 3;
+  margin-left: 4em;
+  margin-right: 2em;
+}
+.recommendArticlesWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tags {
+  flex: 1;
+  border-left: 1px solid #0d253c;
+  padding: 0 1em;
+}
+.tagsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tagsWrapper span {
+  margin: 0.25em 0;
+  padding: 0.25em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ======================== ARTICLE VIDEO SECTION ========================= */
+.videoSection {
+  height: 60vh;
+  width: 100%;
+  border-top: 1px solid #0d253c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4em;
+  padding-right: 7em;
+}
+.video {
+  border-radius: 8px;
+  border: 1px solid #0d253c;
+  object-fit: contain;
+}
+.videoDescWrapper p {
+  font-size: 1.055em;
+  line-height: 1.5em;
+}
+
+/* ======================== LATEST ARTICLE SECTION ========================= */
+.latestArticlesSection {
+  height: 110vh;
+  width: 100%;
+  border-top: 1px solid #0d253c;
+  display: flex;
+  flex-direction: row;
+}
+.latestNews {
+  flex: 3;
+  padding: 2em 4em;
+}
+
+.topAuthor {
+  flex: 1;
+  border-left: 1px solid #0d253c;
+}
+.topAuthorsWrapper {
+  margin-top: 2em;
+}
+
+/* ----------------------- author card start here ---------------------- */
+.authorDetails {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.authorImg {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.authorInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.75em;
+
+  width: 225px;
+  height: 78px;
+}
+.authorName {
+  font-weight: bold;
+  font-size: 1.075em;
+  margin: 0.35em 0;
+}
+.authorAbout {
+  font-size: 0.875em;
+  margin: 0;
+}
+/* ----------------------- author card end here ---------------------- */

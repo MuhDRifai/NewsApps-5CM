@@ -1,0 +1,77 @@
+.navbar {
+  height: 12vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #0d253c;
+}
+.navbarContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 4em;
+  margin-left: 4em;
+}
+.logoSection,
+.menuSection,
+.eventSection {
+  margin-top: 1em;
+}
+.logoTitle {
+  cursor: pointer;
+}
+.menuSection ul {
+  display: flex;
+  flex-direction: row;
+}
+.menuSection ul > li {
+  margin-left: 1.1em;
+  margin-right: 1.1em;
+  list-style: none;
+}
+.menuSection ul > li:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.btnNavbarWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.btnNavbar {
+  outline: 0;
+  border: 0;
+  padding: 0.7em 2.1em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: "Avenir";
+  cursor: pointer;
+}
+.signup {
+  background-color: transparent;
+}
+
+.profileNotifWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navProfileWrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #0d253c;
+  border-radius: 50%;
+  padding: 0.2em;
+}
+.navProfile {
+  border-radius: 50%;
+  object-fit: contain;
+}
+.notifIcon {
+  font-size: 1.9em;
+  margin-right: 1.2em;
+}
